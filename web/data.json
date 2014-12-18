@@ -1,0 +1,118 @@
+{
+    root:[
+        {
+            name:'订单管理',
+            child:[
+                {
+                    src: '../png/shopping_cart_empty.png',
+                    title: '销售管理',
+                    tag:'MaeketTabPanel',
+                    module: 'myjs.MarketManagement'
+                },
+                {
+                    src: '../png/document_file.png',
+                    title: 'RAM管理',
+                    tag: 'RAM',
+                    module:'myjs.ReturnMaterialAuthorization'
+                },{
+                    src: '../png/calendar.png',
+                    title: '采购管理',
+                    tag: 'caigaopanel',
+                    module:'myjs.Caigao'
+                }
+            ]
+        },
+        {
+            name:'商品管理',
+            child:[
+                { src: '../png/shopping_cart_empty.png',
+                   title: '商品管理',
+                   tag: 'Managementpanl',
+                   module: 'myjs.commodityManagement'
+                },{
+                    src: '../png/home.png',
+                    title: '供应商管理',
+                    tag:'Supptabpanl',
+                    module: 'myjs.SupplierManagement'
+                }
+            ]
+        },{
+            name:'前台网站管理管理',
+            child:[
+                { src: '../png/calendar.png',
+                    title: '广告位管理',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },{
+                    src: '../png/flag_mark_red.png',
+                    title: '招聘信息',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                }
+            ]
+        },{
+            name:'库存管理',
+            child:[
+                { src: '../png/home.png',
+                    title: '查看仓库',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },{
+                    src: '../png/minus.png',
+                    title: '查看损耗',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },{
+                    src: '../png/plus.png',
+                    title: '添加损耗',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                }
+            ]
+        },{
+            name:'财务管理',
+            child:[
+                { src: '../png/credit_card.png',
+                    title: '未付款项管理',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },{
+                    src: '../png/credit_card.png',
+                    title: '已付款项管理',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },{
+                    src: '../png/credit_card.png',
+                    title: '已收款项管理',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },{
+                    src: '../png/credit_card.png',
+                    title: '未收款项管理',
+                    tag: 'querysupplier',
+                    module: 'js.supply'
+                }
+            ]
+        },{
+            name:'系统设置',
+            child:[
+                { src: '../png/user_friend.png',
+                    title: '客户管理',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },{
+                    src: '../png/friends_group.png',
+                    title: '系统管理员',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                },
+                {
+                    src: '../png/user_friend.png',
+                    title: '操作管管理',
+                    tag: 'testTree',
+                    module: 'ShiNow.work.testTree'
+                }
+            ]
+        }
+    ]
+}

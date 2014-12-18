@@ -1,0 +1,53 @@
+{
+    comwinite:[
+        {
+            readOnly:true,
+            fieldLabel: "递增的流水号",
+            name: "aut.id"
+        },
+        {
+            readOnly:true,
+            fieldLabel: "供应商编码",
+            name: "aut.supplierid"
+        },
+        {
+            allowBlank: false,
+            fieldLabel: "供应商名称",
+            name: "aut.suppliername"
+        },
+        {
+            fieldLabel: "供应商助记码",
+            name: "aut.supplierab"
+        },
+        {
+            allowBlank: false,
+            fieldLabel: "地址",
+            name: "aut.address"
+        },
+        {
+            allowBlank: false,
+            fieldLabel: "联系人",
+            name: "aut.linkname"
+        },
+        {
+            fieldLabel: "联系电话",
+            name: "aut.linktel"
+        },
+        {
+            fieldLabel: "QQ"
+            ,name: "aut.qq"
+        },
+        {
+            fieldLabel: "Email",
+            name: "aut.email"
+        },
+        {
+            fieldLabel: "排序编码",
+            name: "aut.sortid"
+        },
+        {
+            fieldLabel: "状态",
+            name: "aut.state"
+        }
+    ]
+}

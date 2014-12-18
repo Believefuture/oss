@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.i18n.reload" value="false" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.custom.i18n.resources" value="globalMessages" />
+
+    <package name="common" extends="struts-default,json-default">
+        <interceptors>
+            <interceptor-stack name="mystack">
+                <interceptor-ref name="json"></interceptor-ref>
+
+                <interceptor-ref name="defaultStack"></interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="mystack"></default-interceptor-ref>
+    </package>
+
+    <package name="test" namespace="/" extends="common">
+        <action name="oplogin" class="com.shinow.actions.OpLoginAction" method="login">
+            <result type="json">
+                <param name="includeProperties">success.*,valid,message</param>
+            </result>
+
+        </action>
+
+        <action name="querymenu" class="com.shinow.actions.OpLoginAction" method="querymenu">
+            <result type="json">
+                <param name="excludeProperties">.*user</param>
+            </result>
+
+        </action>
+
+        <action name="loginSucceed" class="com.shinow.actions.OpLoginAction" method="loginSucceed">
+            <result name="success">/WEB-INF/jsp/index.jsp</result>
+            <result name="input">/test.jsp</result>
+        </action>
+        <action name="queryField" class="com.shinow.actions.FieldJsonAction" method="queryField">
+            <result type="json">
+                <param name="includeProperties">fElist.*</param>
+            </result>
+        </action>
+        <action name="queryaut" class="com.shinow.actions.AuthorizationWorkAction" method="qureyAut">
+            <result type="json">
+            </result>
+        </action>
+        <action name="AddAut" class="com.shinow.actions.AuthorizationWorkAction" method="AddAut">
+            <result type="json">
+            </result>
+        </action>
+        <action name="updataAut" class="com.shinow.actions.AuthorizationWorkAction" method="updataAut">
+            <result type="json">
+            </result>
+        </action>
+        <action name="delectAut" class="com.shinow.actions.AuthorizationWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+        <action name="autdefaultVauel" class="com.shinow.actions.AuthorizationWorkAction" method="defaultVauel">
+            <result type="json">
+                <param name="includeProperties">aut.*</param>
+            </result>
+        </action>
+    </package>
+
+
+    <package name="DeliveryinfoWork" namespace="/" extends="common">
+        <action name="qureydel" class="com.shinow.actions.DeliveryinfoWorkAction" method="qureydel">
+            <result type="json">
+            </result>
+        </action>
+        <action name="Adddel" class="com.shinow.actions.DeliveryinfoWorkAction" method="Adddel">
+            <result type="json">
+            </result>
+        </action>
+        <action name="updatadel" class="com.shinow.actions.DeliveryinfoWorkAction" method="updatadel">
+            <result type="json">
+            </result>
+        </action>
+        <action name="delectdel" class="com.shinow.actions.DeliveryinfoWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+    </package>
+
+
+    <package name="MerchandiseCinfoWork" namespace="/" extends="json-default">
+        <action name="qureymccI" class="com.shinow.actions.MerchandiseCInfoWorkAction" method="qureymccI">
+            <result type="json">
+            </result>
+        </action>
+        <action name="AddmccI" class="com.shinow.actions.MerchandiseCInfoWorkAction" method="AddmccI">
+            <result type="json">
+            </result>
+        </action>
+        <action name="updatamccI" class="com.shinow.actions.MerchandiseCInfoWorkAction" method="updatamccI">
+            <result type="json">
+            </result>
+        </action>
+        <action name="delectmccI" class="com.shinow.actions.MerchandiseCInfoWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+    </package>
+
+
+    <package name="MerchandiseInfoWork" namespace="/" extends="json-default">
+        <action name="qureymer" class="com.shinow.actions.MerchandiseInfoWorkAction" method="qureymer">
+            <result type="json">
+
+            </result>
+        </action>
+        <action name="Addmer" class="com.shinow.actions.MerchandiseInfoWorkAction" method="Addmer">
+            <result type="json">
+            </result>
+        </action>
+        <action name="updatamer" class="com.shinow.actions.MerchandiseInfoWorkAction" method="updatamer">
+            <result type="json">
+            </result>
+        </action>
+        <action name="delectmer" class="com.shinow.actions.MerchandiseInfoWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+    </package>
+
+
+    <package name="ProstatusinfoWork" namespace="/" extends="json-default">
+        <action name="qureypro" class="com.shinow.actions.ProstatusinfoWorkAction" method="qureypro">
+            <result type="json">
+            </result>
+        </action>
+        <action name="Addpro" class="com.shinow.actions.ProstatusinfoWorkAction" method="Addpro">
+            <result type="json">
+            </result>
+        </action>
+        <action name="updatapro" class="com.shinow.actions.ProstatusinfoWorkAction" method="updatapro">
+            <result type="json">
+            </result>
+        </action>
+        <action name="delectpro" class="com.shinow.actions.ProstatusinfoWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+    </package>
+
+
+    <package name="UnitinfoWork" namespace="/" extends="json-default">
+        <action name="qureyuni" class="com.shinow.actions.UnitinfoWorkAction" method="qureyuni">
+            <result type="json">
+            </result>
+        </action>
+        <action name="Adduni" class="com.shinow.actions.UnitinfoWorkAction" method="Adduni">
+            <result type="json">
+            </result>
+        </action>
+        <action name="updatauni" class="com.shinow.actions.UnitinfoWorkAction" method="updatauni">
+            <result type="json">
+            </result>
+        </action>
+        <action name="delectuni" class="com.shinow.actions.UnitinfoWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+    </package>
+
+
+
+    <package name="InStockInfoWork" extends="common" namespace="/">
+        <action name="inStockDefault" class="com.shinow.actions.InStockInfoWorkAction" method="inStockDefault">
+            <result type="json">
+                <param name="excludeProperties">
+                    merlist.*.merchandisecid,
+                    merlist.*.prostatusid,
+                    merlist.*.unitid
+                </param>
+            </result>
+        </action>
+
+
+        <action name="usernameDefaul" class="com.shinow.actions.InStockInfoWorkAction" method="userDefault">
+            <result type="json">
+            </result>
+        </action>
+
+
+        <action name="dataderaultvalue" class="com.shinow.actions.InStockInfoWorkAction" method="dataderaultvalue">
+            <result type="json">
+                <param name="excludeProperties">
+                .*operid,.*supplierid,.*merchandisecid,.*billcode,.*prostatusid,.*unitid
+                </param>
+            </result>
+        </action>
+
+        <action name="queryStockInfo" class="com.shinow.actions.InStockInfoWorkAction" method="queryStockInfo">
+            <result type="json">
+                <param name="excludeProperties">
+                    instockinfolist.*.instockdetailsinfoslist,
+                    instockinfolist.*.operid.*.roleid,
+                    <!--merlist.*.unitid-->
+                </param>
+            </result>
+        </action>
+
+        <action name="instockinfoadd" class="com.shinow.actions.InStockInfoWorkAction" method="instockinfoadd">
+            <result type="json">
+            </result>
+        </action>
+
+        <action name="instockinfoupdate" class="com.shinow.actions.InStockInfoWorkAction" method="instockinfoupdate">
+            <result type="json">
+            </result>
+        </action>
+        <action name="instockinfodelect" class="com.shinow.actions.InStockInfoWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+    </package>
+
+
+    <package name="roleinfoWork" extends="common" namespace="/">
+
+        <action name="queryrolelist" class="com.shinow.actions.roleinfoworkAction" method="queryrolelist">
+            <result type="json">
+                <param name="excludeProperties">
+                </param>
+            </result>
+        </action>
+
+        <action name="queryroletree" class="com.shinow.actions.roleinfoworkAction" method="queryroletree">
+            <result type="json">
+            </result>
+        </action>
+        <action name="treedefault" class="com.shinow.actions.roleinfoworkAction" method="treedefault">
+            <result type="json">
+                <param name="excludeProperties">
+                    .*pwd
+                </param>
+            </result>
+        </action>
+
+        <action name="Addrole" class="com.shinow.actions.roleinfoworkAction" method="Addrole">
+            <result type="json">
+            </result>
+        </action>
+        <!--<action name="outstockupdate" class="com.shinow.actions.OutStockInfoWorkAction" method="outstockupdate">-->
+            <!--<result type="json">-->
+            <!--</result>-->
+        <!--</action>-->
+        <!--<action name="outStockInfoWorkdelect" class="com.shinow.actions.OutStockInfoWorkAction" method="delect">-->
+            <!--<result type="json">-->
+            <!--</result>-->
+        <!--</action>-->
+    </package>
+
+    <package name="outStockInfoWork" extends="common" namespace="/">
+
+        <action name="queryrolelist" class="com.shinow.actions.roleinfoworkAction" method="queryrolelist">
+            <result type="json">
+                <param name="excludeProperties">
+                </param>
+            </result>
+        </action>
+
+        <action name="queryoutstock" class="com.shinow.actions.OutStockInfoWorkAction" method="queryoutstock">
+            <result type="json">
+            </result>
+        </action>
+        <action name="outstockdetavalue" class="com.shinow.actions.OutStockInfoWorkAction" method="outstockdetavalue">
+            <result type="json">
+
+            </result>
+        </action>
+
+        <action name="outstockadd" class="com.shinow.actions.OutStockInfoWorkAction" method="outstockadd">
+            <result type="json">
+            </result>
+        </action>
+        <action name="outstockadd" class="com.shinow.actions.OutStockInfoWorkAction" method="delect">
+            <result type="json">
+            </result>
+        </action>
+        <action name="outstockupdate" class="com.shinow.actions.OutStockInfoWorkAction" method="outstockupdate">
+        <result type="json">
+        </result>
+        </action>
+    </package>
+
+
+
+    <package name="OperInfoWork" extends="common" namespace="/">
+        <action name="queryrolederault" class="com.shinow.actions.OperInfoWorkAction" method="queryrolederault">
+            <result type="json">
+
+            </result>
+        </action>
+        <action name="queryoperlist" class="com.shinow.actions.OperInfoWorkAction" method="queryoperlist">
+            <result type="json">
+                <param name="excludeProperties">
+                    .*pwd
+                </param>
+            </result>
+        </action>
+
+        <action name="Addoper" class="com.shinow.actions.OperInfoWorkAction" method="Addoper">
+            <result type="json">
+            </result>
+        </action>
+
+        <!--<action name="outstockupdate" class="com.shinow.actions.OutStockInfoWorkAction" method="outstockupdate">-->
+            <!--<result type="json">-->
+            <!--</result>-->
+        <!--</action>-->
+        <!--<action name="outStockInfoWorkdelect" class="com.shinow.actions.OutStockInfoWorkAction" method="delect">-->
+            <!--<result type="json">-->
+            <!--</result>-->
+        <!--</action>-->
+    </package>
+
+
+
+
+    <package name="text" extends="common" namespace="/">
+        <action name="testss" class="com.shinow.actions.MerchandiseInfoWorkAction" method="test">
+            <result type="json">
+            </result>
+        </action>
+
+    </package>
+
+</struts>

@@ -1,0 +1,563 @@
+{"countNumed": 0, "limit": 0, "message": null, "page": 0, "role": null, "rolelist": null,
+    "roletree": {
+    "checked": false,
+    "children": [
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 1,
+                        "menuid": 1,
+                        "menuname": "供应商管理",
+                        "modelid": "Supptabpanl",
+                        "sortId": 2,
+                        "src": "..\/png\/home.png",
+                        "state": true,
+                        "url": "myjs.SupplierManagement"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 6,
+                        "menuid": 6,
+                        "menuname": "商品信息管理",
+                        "modelid": "Managementpanl",
+                        "sortId": 2,
+                        "src": "..\/png\/shopping_cart_empty.png",
+                        "state": true,
+                        "url": "myjs.commodityManagement"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 2,
+                "menuid": 2,
+                "menuname": "商品管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [],
+            "menuinfoentity": {
+                "id": 4,
+                "menuid": 4,
+                "menuname": "会员管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 3,
+                        "menuid": 3,
+                        "menuname": "销售管理",
+                        "modelid": "MaeketTabPanel",
+                        "sortId": 5,
+                        "src": "..\/png\/shopping_cart_empty.png",
+                        "state": true,
+                        "url": "myjs.MarketManagement"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 8,
+                        "menuid": 8,
+                        "menuname": "RAM管理",
+                        "modelid": "RAM",
+                        "sortId": 5,
+                        "src": "..\/png\/document_file.png",
+                        "state": true,
+                        "url": "myjs.ReturnMaterialAuthorization"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 9,
+                        "menuid": 9,
+                        "menuname": "采购管理",
+                        "modelid": "caigaopanel",
+                        "sortId": 5,
+                        "src": "..\/png\/calendar.png",
+                        "state": true,
+                        "url": "myjs.Caigao"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 5,
+                "menuid": 5,
+                "menuname": "订单管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 10,
+                        "menuid": 10,
+                        "menuname": "广告位管理",
+                        "modelid": "testTree",
+                        "sortId": 7,
+                        "src": "..\/png\/calendar.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 11,
+                        "menuid": 11,
+                        "menuname": "招聘信息",
+                        "modelid": "testTree",
+                        "sortId": 7,
+                        "src": "..\/png\/flag_mark_red.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 7,
+                "menuid": 7,
+                "menuname": "前台网站管理",
+                "modelid": "testTree",
+                "sortId": null,
+                "src": "..\/png\/calendar.png",
+                "state": true,
+                "url": "ShiNow.work.testTree"
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 13,
+                        "menuid": 13,
+                        "menuname": "查看仓库",
+                        "modelid": "testTree",
+                        "sortId": 12,
+                        "src": "..\/png\/home.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 14,
+                        "menuid": 14,
+                        "menuname": "查看损耗",
+                        "modelid": "testTree",
+                        "sortId": 12,
+                        "src": "..\/png\/minus.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 15,
+                        "menuid": 15,
+                        "menuname": "添加损耗",
+                        "modelid": "testTree",
+                        "sortId": 12,
+                        "src": "..\/png\/plus.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 12,
+                "menuid": 12,
+                "menuname": "库存管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 17,
+                        "menuid": 17,
+                        "menuname": "未付款项管理",
+                        "modelid": "testTree",
+                        "sortId": 16,
+                        "src": "..\/png\/credit_card.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 18,
+                        "menuid": 18,
+                        "menuname": "已付款项管理",
+                        "modelid": "testTree",
+                        "sortId": 16,
+                        "src": "..\/png\/credit_card.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 19,
+                        "menuid": 19,
+                        "menuname": "未收款项管理",
+                        "modelid": "testTree",
+                        "sortId": 16,
+                        "src": "..\/png\/credit_card.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 20,
+                        "menuid": 20,
+                        "menuname": "已收款项管理",
+                        "modelid": "testTree",
+                        "sortId": 16,
+                        "src": "..\/png\/credit_card.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 16,
+                "menuid": 16,
+                "menuname": "财务管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 22,
+                        "menuid": 22,
+                        "menuname": "用户管理",
+                        "modelid": "operpanlmei",
+                        "sortId": 21,
+                        "src": "..\/png\/user_friend.png",
+                        "state": true,
+                        "url": "myjs.operinfopanle"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 23,
+                        "menuid": 23,
+                        "menuname": "个人管理",
+                        "modelid": "testTree",
+                        "sortId": 21,
+                        "src": "..\/png\/user_friend.png",
+                        "state": true,
+                        "url": "testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 25,
+                        "menuid": 24,
+                        "menuname": "角色管理",
+                        "modelid": "roleinfoid",
+                        "sortId": 21,
+                        "src": "..\/png\/user_friend.png",
+                        "state": true,
+                        "url": "myjs.roleinfowork"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 21,
+                "menuid": 21,
+                "menuname": "系统设置",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": null
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 1,
+                        "menuid": 1,
+                        "menuname": "供应商管理",
+                        "modelid": "Supptabpanl",
+                        "sortId": 2,
+                        "src": "..\/png\/home.png",
+                        "state": true,
+                        "url": "myjs.SupplierManagement"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 6,
+                        "menuid": 6,
+                        "menuname": "商品信息管理",
+                        "modelid": "Managementpanl",
+                        "sortId": 2,
+                        "src": "..\/png\/shopping_cart_empty.png",
+                        "state": true,
+                        "url": "myjs.commodityManagement"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 2,
+                "menuid": 2,
+                "menuname": "商品管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 3,
+                        "menuid": 3,
+                        "menuname": "销售管理",
+                        "modelid": "MaeketTabPanel",
+                        "sortId": 5,
+                        "src": "..\/png\/shopping_cart_empty.png",
+                        "state": true,
+                        "url": "myjs.MarketManagement"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 8,
+                        "menuid": 8,
+                        "menuname": "RAM管理",
+                        "modelid": "RAM",
+                        "sortId": 5,
+                        "src": "..\/png\/document_file.png",
+                        "state": true,
+                        "url": "myjs.ReturnMaterialAuthorization"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 9,
+                        "menuid": 9,
+                        "menuname": "采购管理",
+                        "modelid": "caigaopanel",
+                        "sortId": 5,
+                        "src": "..\/png\/calendar.png",
+                        "state": true,
+                        "url": "myjs.Caigao"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 5,
+                "menuid": 5,
+                "menuname": "订单管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 13,
+                        "menuid": 13,
+                        "menuname": "查看仓库",
+                        "modelid": "testTree",
+                        "sortId": 12,
+                        "src": "..\/png\/home.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 14,
+                        "menuid": 14,
+                        "menuname": "查看损耗",
+                        "modelid": "testTree",
+                        "sortId": 12,
+                        "src": "..\/png\/minus.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 15,
+                        "menuid": 15,
+                        "menuname": "添加损耗",
+                        "modelid": "testTree",
+                        "sortId": 12,
+                        "src": "..\/png\/plus.png",
+                        "state": true,
+                        "url": "ShiNow.work.testTree"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 12,
+                "menuid": 12,
+                "menuname": "库存管理",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": ""
+            }
+        },
+        {
+            "checked": false,
+            "children": [
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 22,
+                        "menuid": 22,
+                        "menuname": "用户管理",
+                        "modelid": "operpanlmei",
+                        "sortId": 21,
+                        "src": "..\/png\/user_friend.png",
+                        "state": true,
+                        "url": "myjs.operinfopanle"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 23,
+                        "menuid": 23,
+                        "menuname": "个人管理",
+                        "modelid": "testTree",
+                        "sortId": 21,
+                        "src": "..\/png\/user_friend.png",
+                        "state": true,
+                        "url": "testTree"
+                    }
+                },
+                {
+                    "checked": false,
+                    "children": [],
+                    "menuinfoentity": {
+                        "id": 25,
+                        "menuid": 24,
+                        "menuname": "角色管理",
+                        "modelid": "roleinfoid",
+                        "sortId": 21,
+                        "src": "..\/png\/user_friend.png",
+                        "state": true,
+                        "url": "myjs.roleinfowork"
+                    }
+                }
+            ],
+            "menuinfoentity": {
+                "id": 21,
+                "menuid": 21,
+                "menuname": "系统设置",
+                "modelid": null,
+                "sortId": null,
+                "src": null,
+                "state": true,
+                "url": null
+            }
+        }
+    ],
+    "menuinfoentity": null
+}, "success": null}
